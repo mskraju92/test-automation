@@ -11,6 +11,7 @@
 		<maven.compiler.target>1.8</maven.compiler.target>
 		<execution.environment>SIT</execution.environment>
 		<browser>CHROME</browser>
+		<product>GOOGLE</product>
 	</properties>
 
 	<dependencies>
