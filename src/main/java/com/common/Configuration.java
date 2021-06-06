@@ -9,6 +9,7 @@ public class Configuration {
 	public static Properties prop;
 
 	public static final String EXECUTION_ENVIRONMENT = getProp().getProperty("execution.environment");
+	public static final String SELENIUM_BROWSER = getProp().getProperty("browser");
 
 	public static Properties getProp() {
 		prop = new Properties();
